@@ -46,7 +46,7 @@ RUN apt-get update &&\
 RUN adduser ethnetintel
 
 RUN cd /home/ethnetintel &&\
-    git clone https://github.com/cubedro/eth-net-intelligence-api &&\
+    git clone https://github.com/LedgerLeopard/eth-net-intelligence-api.git &&\
     cd eth-net-intelligence-api &&\
     npm install &&\
     npm install -g pm2
